@@ -10,7 +10,8 @@ function createButtons(){
  
  function winnerButton(s){
   if (s==winnerNumber)
-    document.getElementById('MyID').innerHTML = winnerNumber
+    document.getElementById('MyID').innerHTML = "Winner"
   else
-    document.getElementById('MyID').innerHTML = winnerNumber
+    document.getElementById('MyID').innerHTML = "Loser"
+  document.getElementById('MyID2').innerHTML = winnerNumber
  }
